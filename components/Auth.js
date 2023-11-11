@@ -22,9 +22,13 @@ export default function GoogleSignIn() {
             provider: 'google',
             token: userInfo.idToken,
           });
+<<<<<<< HEAD
           if (error) {
             console.error('Error fetching data:', error.message);
           }
+=======
+
+>>>>>>> f6b5227986ebc2364eefe198d7d9a08f34b26769
           console.log(error, data);
         } else {
           throw new Error('No Id token present');

@@ -2,10 +2,17 @@
 
 buildscript {
     ext {
+<<<<<<< HEAD
         buildToolsVersion = findProperty('android.buildToolsVersion') ?: '33.0.0'
         minSdkVersion = Integer.parseInt(findProperty('android.minSdkVersion') ?: '21')
         compileSdkVersion = Integer.parseInt(findProperty('android.compileSdkVersion') ?: '33')
         targetSdkVersion = Integer.parseInt(findProperty('android.targetSdkVersion') ?: '33')
+=======
+        buildToolsVersion = findProperty('android.buildToolsVersion') ?: '34.0.0'
+        minSdkVersion = Integer.parseInt(findProperty('android.minSdkVersion') ?: '21')
+        compileSdkVersion = Integer.parseInt(findProperty('android.compileSdkVersion') ?: '34')
+        targetSdkVersion = Integer.parseInt(findProperty('android.targetSdkVersion') ?: '34')
+>>>>>>> f6b5227986ebc2364eefe198d7d9a08f34b26769
         kotlinVersion = findProperty('android.kotlinVersion') ?: '1.8.10'
         frescoVersion = findProperty('expo.frescoVersion') ?: '2.5.0'
 
@@ -19,6 +26,11 @@ buildscript {
     dependencies {
         classpath('com.android.tools.build:gradle:7.4.2')
         classpath('com.facebook.react:react-native-gradle-plugin')
+<<<<<<< HEAD
+=======
+       // classpath 'com.github.ben-manes:gradle-versions-plugin:0.39.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.44.0' // Updated version
+>>>>>>> f6b5227986ebc2364eefe198d7d9a08f34b26769
     }
 }
 

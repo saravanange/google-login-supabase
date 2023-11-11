@@ -2,4 +2,9 @@
   <string name="app_name">tutorial-expo-login</string>
   <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
   <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+<<<<<<< HEAD
+=======
+  <string name="server_client_id">21983707916-jmadcufqevjm8os98p033ghr35hcemsf.apps.googleusercontent.com</string>
+
+>>>>>>> f6b5227986ebc2364eefe198d7d9a08f34b26769
 </resources>

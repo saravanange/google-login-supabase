@@ -1,6 +1,11 @@
 # google-login-supabase
 
+**Run projcet**
+1. npm install
+2. npm install -g expo-cli
+3.  expo start
 
+**New projcet creation**
 1. npx create-expo-app -t tutorial-expo-login
 2.npm run android
 3.npx expo install @react-native-google-signin/google-signin
@@ -9,6 +14,7 @@
 Add supabase
 1.npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill
 2.npx supabase init 
+
 
 
 Configuration --update token
